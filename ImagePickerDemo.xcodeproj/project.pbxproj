@@ -7,15 +7,29 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4D09EDFA1EC79141E6024D6B /* libPods-ImagePickerDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F6E5E5555A7F885D09CCD37 /* libPods-ImagePickerDemo.a */; };
 		63B9A2E51EA2317F007F9BF4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 63B9A2E41EA2317F007F9BF4 /* main.m */; };
 		63B9A2E81EA2317F007F9BF4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 63B9A2E71EA2317F007F9BF4 /* AppDelegate.m */; };
 		63B9A2EB1EA2317F007F9BF4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 63B9A2EA1EA2317F007F9BF4 /* ViewController.m */; };
 		63B9A2EE1EA2317F007F9BF4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 63B9A2EC1EA2317F007F9BF4 /* Main.storyboard */; };
-		63B9A2F01EA2317F007F9BF4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 63B9A2EF1EA2317F007F9BF4 /* Assets.xcassets */; };
+		63B9A2F01EA2317F007F9BF4 /* btn_add_image_new_record_normal@2x.png btn_add_image_new_record_normal@3x.png.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 63B9A2EF1EA2317F007F9BF4 /* btn_add_image_new_record_normal@2x.png btn_add_image_new_record_normal@3x.png.xcassets */; };
 		63B9A2F31EA2317F007F9BF4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 63B9A2F11EA2317F007F9BF4 /* LaunchScreen.storyboard */; };
+		63B9A3101EA23570007F9BF4 /* KKPhotosHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 63B9A2FD1EA23570007F9BF4 /* KKPhotosHelper.m */; };
+		63B9A3111EA23570007F9BF4 /* KKAlbumsListCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 63B9A2FF1EA23570007F9BF4 /* KKAlbumsListCell.m */; };
+		63B9A3121EA23570007F9BF4 /* KKAlbumsListController.m in Sources */ = {isa = PBXBuildFile; fileRef = 63B9A3011EA23570007F9BF4 /* KKAlbumsListController.m */; };
+		63B9A3131EA23570007F9BF4 /* KKCollectionThumbImageCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 63B9A3031EA23570007F9BF4 /* KKCollectionThumbImageCell.m */; };
+		63B9A3141EA23570007F9BF4 /* KKDisplayImageCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 63B9A3051EA23570007F9BF4 /* KKDisplayImageCell.m */; };
+		63B9A3151EA23570007F9BF4 /* KKImagePickThumbController.m in Sources */ = {isa = PBXBuildFile; fileRef = 63B9A3071EA23570007F9BF4 /* KKImagePickThumbController.m */; };
+		63B9A3161EA23570007F9BF4 /* KKImagePreviewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 63B9A3091EA23570007F9BF4 /* KKImagePreviewController.m */; };
+		63B9A3171EA23570007F9BF4 /* KKPreviewImageCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 63B9A30B1EA23570007F9BF4 /* KKPreviewImageCell.m */; };
+		63B9A3181EA23570007F9BF4 /* KKSelectImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 63B9A30D1EA23570007F9BF4 /* KKSelectImageView.m */; };
+		63B9A3191EA23570007F9BF4 /* UICollectionView+kk_Convenience.m in Sources */ = {isa = PBXBuildFile; fileRef = 63B9A30F1EA23570007F9BF4 /* UICollectionView+kk_Convenience.m */; };
+		63B9A31C1EA23DB3007F9BF4 /* UIImage+extend.m in Sources */ = {isa = PBXBuildFile; fileRef = 63B9A31B1EA23DB3007F9BF4 /* UIImage+extend.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2C97A9F24751D3421004832E /* Pods-ImagePickerDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ImagePickerDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ImagePickerDemo/Pods-ImagePickerDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		2F6E5E5555A7F885D09CCD37 /* libPods-ImagePickerDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ImagePickerDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		63B9A2E01EA2317F007F9BF4 /* ImagePickerDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ImagePickerDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		63B9A2E41EA2317F007F9BF4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		63B9A2E61EA2317F007F9BF4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -23,9 +37,32 @@
 		63B9A2E91EA2317F007F9BF4 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		63B9A2EA1EA2317F007F9BF4 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		63B9A2ED1EA2317F007F9BF4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		63B9A2EF1EA2317F007F9BF4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		63B9A2EF1EA2317F007F9BF4 /* btn_add_image_new_record_normal@2x.png btn_add_image_new_record_normal@3x.png.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "btn_add_image_new_record_normal@2x.png btn_add_image_new_record_normal@3x.png.xcassets"; sourceTree = "<group>"; };
 		63B9A2F21EA2317F007F9BF4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		63B9A2F41EA2317F007F9BF4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		63B9A2FC1EA23570007F9BF4 /* KKPhotosHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KKPhotosHelper.h; sourceTree = "<group>"; };
+		63B9A2FD1EA23570007F9BF4 /* KKPhotosHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KKPhotosHelper.m; sourceTree = "<group>"; };
+		63B9A2FE1EA23570007F9BF4 /* KKAlbumsListCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KKAlbumsListCell.h; sourceTree = "<group>"; };
+		63B9A2FF1EA23570007F9BF4 /* KKAlbumsListCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KKAlbumsListCell.m; sourceTree = "<group>"; };
+		63B9A3001EA23570007F9BF4 /* KKAlbumsListController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KKAlbumsListController.h; sourceTree = "<group>"; };
+		63B9A3011EA23570007F9BF4 /* KKAlbumsListController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KKAlbumsListController.m; sourceTree = "<group>"; };
+		63B9A3021EA23570007F9BF4 /* KKCollectionThumbImageCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KKCollectionThumbImageCell.h; sourceTree = "<group>"; };
+		63B9A3031EA23570007F9BF4 /* KKCollectionThumbImageCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KKCollectionThumbImageCell.m; sourceTree = "<group>"; };
+		63B9A3041EA23570007F9BF4 /* KKDisplayImageCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KKDisplayImageCell.h; sourceTree = "<group>"; };
+		63B9A3051EA23570007F9BF4 /* KKDisplayImageCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KKDisplayImageCell.m; sourceTree = "<group>"; };
+		63B9A3061EA23570007F9BF4 /* KKImagePickThumbController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KKImagePickThumbController.h; sourceTree = "<group>"; };
+		63B9A3071EA23570007F9BF4 /* KKImagePickThumbController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KKImagePickThumbController.m; sourceTree = "<group>"; };
+		63B9A3081EA23570007F9BF4 /* KKImagePreviewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KKImagePreviewController.h; sourceTree = "<group>"; };
+		63B9A3091EA23570007F9BF4 /* KKImagePreviewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KKImagePreviewController.m; sourceTree = "<group>"; };
+		63B9A30A1EA23570007F9BF4 /* KKPreviewImageCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KKPreviewImageCell.h; sourceTree = "<group>"; };
+		63B9A30B1EA23570007F9BF4 /* KKPreviewImageCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KKPreviewImageCell.m; sourceTree = "<group>"; };
+		63B9A30C1EA23570007F9BF4 /* KKSelectImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KKSelectImageView.h; sourceTree = "<group>"; };
+		63B9A30D1EA23570007F9BF4 /* KKSelectImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KKSelectImageView.m; sourceTree = "<group>"; };
+		63B9A30E1EA23570007F9BF4 /* UICollectionView+kk_Convenience.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UICollectionView+kk_Convenience.h"; sourceTree = "<group>"; };
+		63B9A30F1EA23570007F9BF4 /* UICollectionView+kk_Convenience.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UICollectionView+kk_Convenience.m"; sourceTree = "<group>"; };
+		63B9A31A1EA23DB3007F9BF4 /* UIImage+extend.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+extend.h"; sourceTree = "<group>"; };
+		63B9A31B1EA23DB3007F9BF4 /* UIImage+extend.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+extend.m"; sourceTree = "<group>"; };
+		661CEEBDE925541F3B69C009 /* Pods-ImagePickerDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ImagePickerDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-ImagePickerDemo/Pods-ImagePickerDemo.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,17 +70,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4D09EDFA1EC79141E6024D6B /* libPods-ImagePickerDemo.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1C6169AE2FDCDFD4F740306B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2C97A9F24751D3421004832E /* Pods-ImagePickerDemo.debug.xcconfig */,
+				661CEEBDE925541F3B69C009 /* Pods-ImagePickerDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		63B9A2D71EA2317F007F9BF4 = {
 			isa = PBXGroup;
 			children = (
 				63B9A2E21EA2317F007F9BF4 /* ImagePickerDemo */,
 				63B9A2E11EA2317F007F9BF4 /* Products */,
+				1C6169AE2FDCDFD4F740306B /* Pods */,
+				D1360A96AB1338ADA308F734 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,12 +107,13 @@
 		63B9A2E21EA2317F007F9BF4 /* ImagePickerDemo */ = {
 			isa = PBXGroup;
 			children = (
+				63B9A2FA1EA23570007F9BF4 /* ImagePicker */,
 				63B9A2E61EA2317F007F9BF4 /* AppDelegate.h */,
 				63B9A2E71EA2317F007F9BF4 /* AppDelegate.m */,
 				63B9A2E91EA2317F007F9BF4 /* ViewController.h */,
 				63B9A2EA1EA2317F007F9BF4 /* ViewController.m */,
 				63B9A2EC1EA2317F007F9BF4 /* Main.storyboard */,
-				63B9A2EF1EA2317F007F9BF4 /* Assets.xcassets */,
+				63B9A2EF1EA2317F007F9BF4 /* btn_add_image_new_record_normal@2x.png btn_add_image_new_record_normal@3x.png.xcassets */,
 				63B9A2F11EA2317F007F9BF4 /* LaunchScreen.storyboard */,
 				63B9A2F41EA2317F007F9BF4 /* Info.plist */,
 				63B9A2E31EA2317F007F9BF4 /* Supporting Files */,
@@ -79,6 +129,51 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		63B9A2FA1EA23570007F9BF4 /* ImagePicker */ = {
+			isa = PBXGroup;
+			children = (
+				63B9A2FB1EA23570007F9BF4 /* Helper */,
+				63B9A2FE1EA23570007F9BF4 /* KKAlbumsListCell.h */,
+				63B9A2FF1EA23570007F9BF4 /* KKAlbumsListCell.m */,
+				63B9A3001EA23570007F9BF4 /* KKAlbumsListController.h */,
+				63B9A3011EA23570007F9BF4 /* KKAlbumsListController.m */,
+				63B9A3021EA23570007F9BF4 /* KKCollectionThumbImageCell.h */,
+				63B9A3031EA23570007F9BF4 /* KKCollectionThumbImageCell.m */,
+				63B9A3041EA23570007F9BF4 /* KKDisplayImageCell.h */,
+				63B9A3051EA23570007F9BF4 /* KKDisplayImageCell.m */,
+				63B9A3061EA23570007F9BF4 /* KKImagePickThumbController.h */,
+				63B9A3071EA23570007F9BF4 /* KKImagePickThumbController.m */,
+				63B9A3081EA23570007F9BF4 /* KKImagePreviewController.h */,
+				63B9A3091EA23570007F9BF4 /* KKImagePreviewController.m */,
+				63B9A30A1EA23570007F9BF4 /* KKPreviewImageCell.h */,
+				63B9A30B1EA23570007F9BF4 /* KKPreviewImageCell.m */,
+				63B9A30C1EA23570007F9BF4 /* KKSelectImageView.h */,
+				63B9A30D1EA23570007F9BF4 /* KKSelectImageView.m */,
+				63B9A30E1EA23570007F9BF4 /* UICollectionView+kk_Convenience.h */,
+				63B9A30F1EA23570007F9BF4 /* UICollectionView+kk_Convenience.m */,
+			);
+			path = ImagePicker;
+			sourceTree = "<group>";
+		};
+		63B9A2FB1EA23570007F9BF4 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				63B9A2FC1EA23570007F9BF4 /* KKPhotosHelper.h */,
+				63B9A2FD1EA23570007F9BF4 /* KKPhotosHelper.m */,
+				63B9A31A1EA23DB3007F9BF4 /* UIImage+extend.h */,
+				63B9A31B1EA23DB3007F9BF4 /* UIImage+extend.m */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		D1360A96AB1338ADA308F734 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2F6E5E5555A7F885D09CCD37 /* libPods-ImagePickerDemo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -86,9 +181,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 63B9A2F71EA2317F007F9BF4 /* Build configuration list for PBXNativeTarget "ImagePickerDemo" */;
 			buildPhases = (
+				6EEFF538C47ECC2B20765A7E /* [CP] Check Pods Manifest.lock */,
 				63B9A2DC1EA2317F007F9BF4 /* Sources */,
 				63B9A2DD1EA2317F007F9BF4 /* Frameworks */,
 				63B9A2DE1EA2317F007F9BF4 /* Resources */,
+				B9CEE04B559C139C978ABBD0 /* [CP] Embed Pods Frameworks */,
+				1E7C4BE20A2AAE8D5F35C653 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -139,20 +237,79 @@
 			buildActionMask = 2147483647;
 			files = (
 				63B9A2F31EA2317F007F9BF4 /* LaunchScreen.storyboard in Resources */,
-				63B9A2F01EA2317F007F9BF4 /* Assets.xcassets in Resources */,
+				63B9A2F01EA2317F007F9BF4 /* btn_add_image_new_record_normal@2x.png btn_add_image_new_record_normal@3x.png.xcassets in Resources */,
 				63B9A2EE1EA2317F007F9BF4 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1E7C4BE20A2AAE8D5F35C653 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ImagePickerDemo/Pods-ImagePickerDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6EEFF538C47ECC2B20765A7E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		B9CEE04B559C139C978ABBD0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ImagePickerDemo/Pods-ImagePickerDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		63B9A2DC1EA2317F007F9BF4 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				63B9A3151EA23570007F9BF4 /* KKImagePickThumbController.m in Sources */,
+				63B9A3131EA23570007F9BF4 /* KKCollectionThumbImageCell.m in Sources */,
+				63B9A3171EA23570007F9BF4 /* KKPreviewImageCell.m in Sources */,
+				63B9A3101EA23570007F9BF4 /* KKPhotosHelper.m in Sources */,
 				63B9A2EB1EA2317F007F9BF4 /* ViewController.m in Sources */,
+				63B9A3161EA23570007F9BF4 /* KKImagePreviewController.m in Sources */,
+				63B9A3111EA23570007F9BF4 /* KKAlbumsListCell.m in Sources */,
+				63B9A3121EA23570007F9BF4 /* KKAlbumsListController.m in Sources */,
 				63B9A2E81EA2317F007F9BF4 /* AppDelegate.m in Sources */,
+				63B9A31C1EA23DB3007F9BF4 /* UIImage+extend.m in Sources */,
+				63B9A3141EA23570007F9BF4 /* KKDisplayImageCell.m in Sources */,
+				63B9A3181EA23570007F9BF4 /* KKSelectImageView.m in Sources */,
+				63B9A3191EA23570007F9BF4 /* UICollectionView+kk_Convenience.m in Sources */,
 				63B9A2E51EA2317F007F9BF4 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -269,10 +426,12 @@
 		};
 		63B9A2F81EA2317F007F9BF4 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2C97A9F24751D3421004832E /* Pods-ImagePickerDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = CYXGL5U26V;
 				INFOPLIST_FILE = ImagePickerDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = KKK.ImagePickerDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -281,10 +440,12 @@
 		};
 		63B9A2F91EA2317F007F9BF4 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 661CEEBDE925541F3B69C009 /* Pods-ImagePickerDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = CYXGL5U26V;
 				INFOPLIST_FILE = ImagePickerDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = KKK.ImagePickerDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -310,6 +471,7 @@
 				63B9A2F91EA2317F007F9BF4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
